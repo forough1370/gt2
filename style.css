@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('fonts/Sporting_Grotesque-Bold_web.eot');
+    src:    url('fonts/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Sporting_Grotesque-Bold_web.woff') format('woff'),
+            url('fonts/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+            url('fonts/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
+            url('fonts/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+	max-width: 620px;
+	min-width:325px;
+	padding: 0 25px 0 25px;
+	margin: auto;
+	margin-top:50px;
+	font-family: source-serif-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 27px;
+	font-variant-numeric: oldstyle-nums;
+	hyphens:auto;
+	-webkit-hyphens:auto;
+	-ms-hyphens:auto;
+	hyphenate-limits-lines: 2;
+	-webkit-hyphenate-limit-lines: 2;
+	hyphenate-limit-chars: 7 3 2;
+	-webkit-hyphenate-limit-before: 3;
+	-webkit-hyphenate-limit-after: 3;
+}
+
+p{
+	margin-botoom:27px;
+}
+
+.caption {
+	color:red;
+	font-family: source-serif-pro, serif;
+	font-weight: 700;
+	font-style: normal;}
+
+h1 {
+	font-family: 'Sporting Grotesque_Bold'; 
+	font-size: 40px;   
+	line-height: 50px;
+	margin-bottom:5px;
+	}
+
+	@media only screen and (max-width: 400px) {
+		h1 {
+			font-size:34px;
+			line height: 45px;
+		}
+	}
+	
